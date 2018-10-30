@@ -12,3 +12,5 @@ local world2 = display.newImageRect( "world.png", 150, 150 )
 world2.x = display.contentCenterX
 world2.y = display.contentHeight * 0.75
 
+local msgText = display.newText("Hello,World !", world1.x, display.contentCenterY, native.systemFont, 32 )
+msgText:setFillColor(0.2,0.6,0.8)
