@@ -12,7 +12,9 @@ local world2 = display.newImageRect( "world.png", 150, 150 )
 world2.x = display.contentCenterX
 world2.y = display.contentHeight * 0.75
 
-local msgText1 = display.newText( "Hello World !", 160, 240, native.systemFont, 32 )
+local msgText1 = display.newText( "Hello World !", 160, 210, native.systemFont, 32 )
 
-local msgText2 = display.newText( "Hello World !", 160, 270, native.systemFont, 32 )
+local msgText2 = display.newText( "Hello World !", 160, 240, native.systemFont, 32 )
+
+local msgText3 = display.newText( "Hello World !", 160, 270, native.systemFont, 32 )
 
